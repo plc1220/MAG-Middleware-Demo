@@ -1,0 +1,61 @@
+# SAS package substitution properties
+PackageUUID=d9296b41-a3aa-4054-bc7d-a56a30de523d
+ExportTime=2026-10-22T09:52:55
+
+# --------------------------- Instructions ---------------------------
+#
+# This property file can be used during a batch import process
+# to apply specific changes to the objects being imported.
+# This file can potentially contain two types of properties:
+# connection properties and substitution properties.
+#
+# Connection properties are used to describe the connection between an
+# object being imported and an existing object on the target metadata
+# server.  All of these properties are included within sections
+# labeled [Connections].
+#
+# To update the connection property settings, modify the properties
+# containing the keyword "Target" in their name.  This includes
+# entries labeled "TargetName", "TargetPath", or "TargetDirectory".
+#
+# For instance, to change which application server the objects being
+# imported should be connected to, the following change can be made:
+# ApplicationServer[1].SourceName=SASMain
+# ApplicationServer[1].TargetName=SAS Application Server
+#
+# When the package file is imported, any object that was originally 
+# associated to "SASMain" on the source server will now be 
+# associated to "SAS Application Server" on the target server.
+#
+# Substitution properties allow modifications to object-specific
+# values.  These values may include physical paths, descriptions,
+# or port numbers, for example.  All of these properties are included
+# within sections labeled by an object's path.
+#
+# To update an object-specific property value, simply modify the
+# proper value.  For instance, to change which path a library uses,
+# edit the value of the "DirPath" property.
+# Do not modify any "Path" property that contains the keyword
+# "ApplicationServer".  This property is used as context only.
+#
+# --------------------------------------------------------------------
+
+[Connections: Table]
+Table[1].SourcePath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/1 Source Layer/1.3 Extract/BIZINFOR/BAYNO/FCMS0000_BAYNO0000_DETAILS(Table)
+Table[1].TargetPath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/1 Source Layer/1.3 Extract/BIZINFOR/BAYNO/FCMS0000_BAYNO0000_DETAILS(Table)
+
+Table[2].SourcePath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/1 Source Layer/1.2 Source Data/BIZINFOR/BAYNO/FMCS0000_BAYNO000_HEADER(Table)
+Table[2].TargetPath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/1 Source Layer/1.2 Source Data/BIZINFOR/BAYNO/FMCS0000_BAYNO000_HEADER(Table)
+
+Table[3].SourcePath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/2 Staging Layer/2.4 Staging/BIZINFOR/BAYNO/TREF01_BAYNO_HIST_STG(Table)
+Table[3].TargetPath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/2 Staging Layer/2.4 Staging/BIZINFOR/BAYNO/TREF01_BAYNO_HIST_STG(Table)
+
+Table[4].SourcePath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/3 Integration Layer/3.9 SAS Tables/BIZINFOR/BAYNO/TREF01_BAYNO_HIST_LD(Table)
+Table[4].TargetPath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/3 Integration Layer/3.9 SAS Tables/BIZINFOR/BAYNO/TREF01_BAYNO_HIST_LD(Table)
+
+Table[5].SourcePath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/3 Integration Layer/3.8 DB2 Tables/TREF01_BAYNO_HIST(Table)
+Table[5].TargetPath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/3 Integration Layer/3.8 DB2 Tables/TREF01_BAYNO_HIST(Table)
+
+[Connections: External File]
+ExternalFile[1].SourcePath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/1 Source Layer/1.2 Source Data/BIZINFOR/BAYNO/FMCS0000_BAYNO000_DETAILS(ExternalFile)
+ExternalFile[1].TargetPath=/EDW_SWIFT/SAS Data Integration Studio Custom Tree/1 Source Layer/1.2 Source Data/BIZINFOR/BAYNO/FMCS0000_BAYNO000_DETAILS(ExternalFile)

@@ -1,0 +1,51 @@
+{
+  "name": "mag-bayno-latest",
+  "organization_id": "77c1b28e-7cc7-48b6-a48a-dad646769755",
+  "environment_id": "env-pozpjk",
+  "created_at": "2026-10-30T01:01:18Z",
+  "updated_at": "2026-10-30T02:02:54Z",
+  "spec": {
+    "statement": "CREATE TABLE bayno_latest_assignment (\n    PRIMARY KEY (carrier, flight_number, first_leg_dep_date, departure_airport) NOT ENFORCED\n) DISTRIBUTED BY HASH(carrier, flight_number, first_leg_dep_date, departure_airport) INTO 1 BUCKETS\nWITH ('changelog.mode' = 'upsert')\nAS SELECT COALESCE(carrier, '') AS carrier,\n          COALESCE(flight_number, '') AS flight_number,\n          COALESCE(first_leg_dep_date, '') AS first_leg_dep_date,\n          COALESCE(departure_airport, '') AS departure_airport,\n          file_id, line_number, source_file, source_system, feed_type,\n          file_sequence, record_type, scheduled_dep_time, bay_number\nFROM (\n    SELECT *, ROW_NUMBER() OVER (\n        PARTITION BY carrier, flight_number, first_leg_dep_date, departure_airport\n        ORDER BY source_file DESC, line_number DESC\n    ) AS rn\n    FROM bayno_assignment_history\n    WHERE carrier IS NOT NULL AND flight_number IS NOT NULL\n      AND first_leg_dep_date IS NOT NULL AND departure_airport IS NOT NULL\n)\nWHERE rn = 1;",
+    "compute_pool_id": "lfcp-rr606r7",
+    "principal": "u-v68v25",
+    "stopped": false,
+    "execution_mode": "STREAMING",
+    "properties": {
+      "sql.current-catalog": "lumo-demo",
+      "sql.current-database": "lumo-demo"
+    }
+  },
+  "status": {
+    "phase": "RUNNING",
+    "detail": "",
+    "scaling_status": {
+      "scaling_state": "OK",
+      "last_updated": "2026-10-30T01:01:33Z"
+    },
+    "state_limit_status": {
+      "state_limit_state": "OK",
+      "detail": "State size is within the allowed limits.",
+      "last_updated": "2026-10-30T02:02:53Z"
+    },
+    "warnings": [
+      {
+        "severity": "CRITICAL",
+        "reason": "UPSERT_AND_PRIMARY_KEYS_DIFFERENT",
+        "message": "The primary key does not match the upsert key derived from the query. If the primary key and upsert key don't match, the system needs to add a state-intensive operation for correction. Please revisit the query, as it currently does not produce any upsert key. Grouping, partitioning, and joining operations should reference the upsert keys of the source tables. For more information, see https://cnfl.io/primary_vs_upsert_key.",
+        "created_at": "2026-10-30T01:01:20Z"
+      },
+      {
+        "severity": "CRITICAL",
+        "reason": "HIGH_STATE_OPERATOR_WITHOUT_TTL",
+        "message": "Your query includes one or more highly state-intensive operators but does not set a time-to-live (TTL) value, which means that the system potentially needs to store an infinite amount of state. This can result in a DEGRADED statement and higher CFU consumption. If possible, change your query to use a different operator, or set a time-to-live (TTL) value. For more information, see https://cnfl.io/high_state_intensive_operators.",
+        "created_at": "2026-10-30T01:01:20Z"
+      }
+    ],
+    "traits": {
+      "sql_kind": "CREATE_TABLE_AS",
+      "is_bounded": true,
+      "is_append_only": true
+    },
+    "network_kind": "PUBLIC"
+  }
+}

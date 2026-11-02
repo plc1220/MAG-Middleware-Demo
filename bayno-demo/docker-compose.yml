@@ -1,0 +1,58 @@
+name: mag-bayno-demo
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: bayno_demo
+      POSTGRES_USER: bayno_demo
+      POSTGRES_PASSWORD: ${BAYNO_PG_PASSWORD:?Create bayno-demo/.env from .env.example first}
+    ports:
+      - "127.0.0.1:55432:5432"
+    volumes:
+      - bayno-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bayno_demo -d bayno_demo"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+    restart: "no"
+
+  jobmanager:
+    build: .
+    image: mag-bayno-flink:local
+    command: jobmanager
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:18081:8081"
+    volumes:
+      - ./incoming:/opt/flink/input:ro
+    environment:
+      FLINK_PROPERTIES: |
+        jobmanager.rpc.address: jobmanager
+        parallelism.default: 1
+      BAYNO_DB_URL: jdbc:postgresql://postgres:5432/bayno_demo
+      BAYNO_DB_USER: bayno_demo
+      BAYNO_DB_PASSWORD: ${BAYNO_PG_PASSWORD:?Create bayno-demo/.env from .env.example first}
+    restart: "no"
+
+  taskmanager:
+    image: mag-bayno-flink:local
+    command: taskmanager
+    depends_on:
+      - jobmanager
+    volumes:
+      - ./incoming:/opt/flink/input:ro
+    environment:
+      FLINK_PROPERTIES: |
+        jobmanager.rpc.address: jobmanager
+        taskmanager.numberOfTaskSlots: 4
+        parallelism.default: 1
+      BAYNO_DB_URL: jdbc:postgresql://postgres:5432/bayno_demo
+      BAYNO_DB_USER: bayno_demo
+      BAYNO_DB_PASSWORD: ${BAYNO_PG_PASSWORD:?Create bayno-demo/.env from .env.example first}
+    restart: "no"
+
+volumes:
+  bayno-pgdata:

@@ -1,0 +1,4978 @@
+{
+  "bayno_raw_lines": {
+    "kind": "KafkaTopicConfigList",
+    "metadata": {
+      "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs",
+      "next": null
+    },
+    "data": [
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/cleanup.policy",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=cleanup.policy"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "cleanup.policy",
+        "value": "delete",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleanup.policy",
+            "value": "delete",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/compression.gzip.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=compression.gzip.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.gzip.level",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.gzip.level",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/compression.lz4.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=compression.lz4.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.lz4.level",
+        "value": "9",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.lz4.level",
+            "value": "9",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/compression.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=compression.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.type",
+        "value": "producer",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.type",
+            "value": "producer",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/compression.zstd.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=compression.zstd.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.zstd.level",
+        "value": "3",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.zstd.level",
+            "value": "3",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/delete.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=delete.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "delete.retention.ms",
+        "value": "86400000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.delete.retention.ms",
+            "value": "86400000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/errors.deadletterqueue.group.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=errors.deadletterqueue.group.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "errors.deadletterqueue.group.enable",
+        "value": "false",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/file.delete.delay.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=file.delete.delay.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "file.delete.delay.ms",
+        "value": "60000",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.delete.delay.ms",
+            "value": "60000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/flush.messages",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=flush.messages"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.messages",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.flush.interval.messages",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/flush.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=flush.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.ms",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/follower.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=follower.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "follower.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/index.interval.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=index.interval.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "index.interval.bytes",
+        "value": "4096",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.interval.bytes",
+            "value": "4096",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/leader.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=leader.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "leader.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/local.retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=local.retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.bytes",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.bytes",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/local.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=local.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.ms",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.ms",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/max.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=max.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.compaction.lag.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.max.compaction.lag.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/max.message.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=max.message.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.message.bytes",
+        "value": "2097164",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "message.max.bytes",
+            "value": "2097164",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "message.max.bytes",
+            "value": "1048588",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/message.downconversion.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=message.downconversion.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.downconversion.enable",
+        "value": "true",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.downconversion.enable",
+            "value": "true",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/message.timestamp.after.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=message.timestamp.after.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.after.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "3600000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/message.timestamp.before.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=message.timestamp.before.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.before.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/message.timestamp.difference.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=message.timestamp.difference.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.difference.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.difference.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/message.timestamp.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=message.timestamp.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.type",
+        "value": "CreateTime",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.type",
+            "value": "CreateTime",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/min.cleanable.dirty.ratio",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=min.cleanable.dirty.ratio"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.cleanable.dirty.ratio",
+        "value": "0.5",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.min.cleanable.ratio",
+            "value": "0.5",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/min.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=min.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.compaction.lag.ms",
+        "value": "0",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.min.compaction.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/min.insync.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=min.insync.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.insync.replicas",
+        "value": "2",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_DEFAULT_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "DYNAMIC_DEFAULT_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/preallocate",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=preallocate"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "preallocate",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.preallocate",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/remote.copy.lag.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=remote.copy.lag.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.bytes",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/remote.copy.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=remote.copy.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/remote.log.copy.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=remote.log.copy.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.copy.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/remote.log.delete.on.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=remote.log.delete.on.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.delete.on.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/remote.storage.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=remote.storage.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.storage.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.bytes",
+        "value": "-1",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.retention.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "retention.ms",
+            "value": "604800000",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/segment.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=segment.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.bytes",
+        "value": "104857600",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.bytes",
+            "value": "104857600",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.segment.bytes",
+            "value": "1073741824",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/segment.index.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=segment.index.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.index.bytes",
+        "value": "10485760",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.size.max.bytes",
+            "value": "10485760",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/segment.jitter.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=segment.jitter.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.jitter.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/segment.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=segment.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_raw_lines/configs/unclean.leader.election.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_raw_lines/config=unclean.leader.election.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "unclean.leader.election.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "unclean.leader.election.enable",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_raw_lines",
+        "is_default": true
+      }
+    ]
+  },
+  "bayno_staging_v2": {
+    "kind": "KafkaTopicConfigList",
+    "metadata": {
+      "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs",
+      "next": null
+    },
+    "data": [
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/cleanup.policy",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=cleanup.policy"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "cleanup.policy",
+        "value": "compact",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "cleanup.policy",
+            "value": "compact",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          },
+          {
+            "name": "log.cleanup.policy",
+            "value": "delete",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/compression.gzip.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=compression.gzip.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.gzip.level",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.gzip.level",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/compression.lz4.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=compression.lz4.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.lz4.level",
+        "value": "9",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.lz4.level",
+            "value": "9",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/compression.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=compression.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.type",
+        "value": "producer",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.type",
+            "value": "producer",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/compression.zstd.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=compression.zstd.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.zstd.level",
+        "value": "3",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.zstd.level",
+            "value": "3",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/delete.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=delete.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "delete.retention.ms",
+        "value": "86400000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.delete.retention.ms",
+            "value": "86400000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/errors.deadletterqueue.group.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=errors.deadletterqueue.group.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "errors.deadletterqueue.group.enable",
+        "value": "false",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/file.delete.delay.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=file.delete.delay.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "file.delete.delay.ms",
+        "value": "60000",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.delete.delay.ms",
+            "value": "60000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/flush.messages",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=flush.messages"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.messages",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.flush.interval.messages",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/flush.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=flush.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.ms",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/follower.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=follower.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "follower.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/index.interval.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=index.interval.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "index.interval.bytes",
+        "value": "4096",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.interval.bytes",
+            "value": "4096",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/leader.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=leader.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "leader.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/local.retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=local.retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.bytes",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.bytes",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/local.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=local.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.ms",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.ms",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/max.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=max.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.compaction.lag.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.max.compaction.lag.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/max.message.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=max.message.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.message.bytes",
+        "value": "2097164",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "message.max.bytes",
+            "value": "2097164",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "message.max.bytes",
+            "value": "1048588",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/message.downconversion.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=message.downconversion.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.downconversion.enable",
+        "value": "true",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.downconversion.enable",
+            "value": "true",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/message.timestamp.after.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=message.timestamp.after.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.after.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "3600000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/message.timestamp.before.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=message.timestamp.before.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.before.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/message.timestamp.difference.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=message.timestamp.difference.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.difference.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.difference.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/message.timestamp.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=message.timestamp.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.type",
+        "value": "CreateTime",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.type",
+            "value": "CreateTime",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/min.cleanable.dirty.ratio",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=min.cleanable.dirty.ratio"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.cleanable.dirty.ratio",
+        "value": "0.5",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.min.cleanable.ratio",
+            "value": "0.5",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/min.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=min.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.compaction.lag.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "min.compaction.lag.ms",
+            "value": "604800000",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          },
+          {
+            "name": "log.cleaner.min.compaction.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/min.insync.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=min.insync.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.insync.replicas",
+        "value": "2",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_DEFAULT_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "DYNAMIC_DEFAULT_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/preallocate",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=preallocate"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "preallocate",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.preallocate",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/remote.copy.lag.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=remote.copy.lag.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.bytes",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/remote.copy.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=remote.copy.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/remote.log.copy.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=remote.log.copy.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.copy.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/remote.log.delete.on.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=remote.log.delete.on.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.delete.on.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/remote.storage.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=remote.storage.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.storage.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.bytes",
+        "value": "-1",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.retention.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.ms",
+        "value": "-1",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "retention.ms",
+            "value": "-1",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/segment.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=segment.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.bytes",
+        "value": "104857600",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.bytes",
+            "value": "104857600",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.segment.bytes",
+            "value": "1073741824",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/segment.index.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=segment.index.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.index.bytes",
+        "value": "10485760",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.size.max.bytes",
+            "value": "10485760",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/segment.jitter.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=segment.jitter.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.jitter.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/segment.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=segment.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_staging_v2/configs/unclean.leader.election.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_staging_v2/config=unclean.leader.election.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "unclean.leader.election.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "unclean.leader.election.enable",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_staging_v2",
+        "is_default": true
+      }
+    ]
+  },
+  "bayno_file_state_v21": {
+    "kind": "KafkaTopicConfigList",
+    "metadata": {
+      "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs",
+      "next": null
+    },
+    "data": [
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/cleanup.policy",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=cleanup.policy"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "cleanup.policy",
+        "value": "compact",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "cleanup.policy",
+            "value": "compact",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          },
+          {
+            "name": "log.cleanup.policy",
+            "value": "delete",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/compression.gzip.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=compression.gzip.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.gzip.level",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.gzip.level",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/compression.lz4.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=compression.lz4.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.lz4.level",
+        "value": "9",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.lz4.level",
+            "value": "9",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/compression.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=compression.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.type",
+        "value": "producer",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.type",
+            "value": "producer",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/compression.zstd.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=compression.zstd.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.zstd.level",
+        "value": "3",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.zstd.level",
+            "value": "3",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/delete.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=delete.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "delete.retention.ms",
+        "value": "86400000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.delete.retention.ms",
+            "value": "86400000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/errors.deadletterqueue.group.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=errors.deadletterqueue.group.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "errors.deadletterqueue.group.enable",
+        "value": "false",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/file.delete.delay.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=file.delete.delay.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "file.delete.delay.ms",
+        "value": "60000",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.delete.delay.ms",
+            "value": "60000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/flush.messages",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=flush.messages"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.messages",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.flush.interval.messages",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/flush.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=flush.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.ms",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/follower.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=follower.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "follower.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/index.interval.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=index.interval.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "index.interval.bytes",
+        "value": "4096",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.interval.bytes",
+            "value": "4096",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/leader.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=leader.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "leader.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/local.retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=local.retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.bytes",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.bytes",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/local.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=local.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.ms",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.ms",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/max.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=max.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.compaction.lag.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.max.compaction.lag.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/max.message.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=max.message.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.message.bytes",
+        "value": "2097164",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "message.max.bytes",
+            "value": "2097164",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "message.max.bytes",
+            "value": "1048588",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/message.downconversion.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=message.downconversion.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.downconversion.enable",
+        "value": "true",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.downconversion.enable",
+            "value": "true",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/message.timestamp.after.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=message.timestamp.after.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.after.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "3600000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/message.timestamp.before.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=message.timestamp.before.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.before.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/message.timestamp.difference.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=message.timestamp.difference.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.difference.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.difference.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/message.timestamp.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=message.timestamp.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.type",
+        "value": "CreateTime",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.type",
+            "value": "CreateTime",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/min.cleanable.dirty.ratio",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=min.cleanable.dirty.ratio"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.cleanable.dirty.ratio",
+        "value": "0.5",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.min.cleanable.ratio",
+            "value": "0.5",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/min.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=min.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.compaction.lag.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "min.compaction.lag.ms",
+            "value": "604800000",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          },
+          {
+            "name": "log.cleaner.min.compaction.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/min.insync.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=min.insync.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.insync.replicas",
+        "value": "2",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_DEFAULT_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "DYNAMIC_DEFAULT_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/preallocate",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=preallocate"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "preallocate",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.preallocate",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/remote.copy.lag.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=remote.copy.lag.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.bytes",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/remote.copy.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=remote.copy.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/remote.log.copy.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=remote.log.copy.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.copy.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/remote.log.delete.on.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=remote.log.delete.on.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.delete.on.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/remote.storage.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=remote.storage.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.storage.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.bytes",
+        "value": "-1",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.retention.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.ms",
+        "value": "-1",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "retention.ms",
+            "value": "-1",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/segment.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=segment.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.bytes",
+        "value": "104857600",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.bytes",
+            "value": "104857600",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.segment.bytes",
+            "value": "1073741824",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/segment.index.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=segment.index.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.index.bytes",
+        "value": "10485760",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.size.max.bytes",
+            "value": "10485760",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/segment.jitter.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=segment.jitter.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.jitter.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/segment.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=segment.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_state_v21/configs/unclean.leader.election.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_state_v21/config=unclean.leader.election.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "unclean.leader.election.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "unclean.leader.election.enable",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_state_v21",
+        "is_default": true
+      }
+    ]
+  },
+  "bayno_processed_v2": {
+    "kind": "KafkaTopicConfigList",
+    "metadata": {
+      "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs",
+      "next": null
+    },
+    "data": [
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/cleanup.policy",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=cleanup.policy"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "cleanup.policy",
+        "value": "compact",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "cleanup.policy",
+            "value": "compact",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          },
+          {
+            "name": "log.cleanup.policy",
+            "value": "delete",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/compression.gzip.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=compression.gzip.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.gzip.level",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.gzip.level",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/compression.lz4.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=compression.lz4.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.lz4.level",
+        "value": "9",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.lz4.level",
+            "value": "9",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/compression.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=compression.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.type",
+        "value": "producer",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.type",
+            "value": "producer",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/compression.zstd.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=compression.zstd.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.zstd.level",
+        "value": "3",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.zstd.level",
+            "value": "3",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/delete.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=delete.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "delete.retention.ms",
+        "value": "86400000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.delete.retention.ms",
+            "value": "86400000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/errors.deadletterqueue.group.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=errors.deadletterqueue.group.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "errors.deadletterqueue.group.enable",
+        "value": "false",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/file.delete.delay.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=file.delete.delay.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "file.delete.delay.ms",
+        "value": "60000",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.delete.delay.ms",
+            "value": "60000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/flush.messages",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=flush.messages"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.messages",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.flush.interval.messages",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/flush.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=flush.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.ms",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/follower.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=follower.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "follower.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/index.interval.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=index.interval.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "index.interval.bytes",
+        "value": "4096",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.interval.bytes",
+            "value": "4096",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/leader.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=leader.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "leader.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/local.retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=local.retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.bytes",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.bytes",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/local.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=local.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.ms",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.ms",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/max.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=max.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.compaction.lag.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.max.compaction.lag.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/max.message.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=max.message.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.message.bytes",
+        "value": "2097164",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "message.max.bytes",
+            "value": "2097164",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "message.max.bytes",
+            "value": "1048588",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/message.downconversion.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=message.downconversion.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.downconversion.enable",
+        "value": "true",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.downconversion.enable",
+            "value": "true",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/message.timestamp.after.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=message.timestamp.after.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.after.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "3600000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/message.timestamp.before.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=message.timestamp.before.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.before.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/message.timestamp.difference.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=message.timestamp.difference.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.difference.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.difference.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/message.timestamp.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=message.timestamp.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.type",
+        "value": "CreateTime",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.type",
+            "value": "CreateTime",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/min.cleanable.dirty.ratio",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=min.cleanable.dirty.ratio"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.cleanable.dirty.ratio",
+        "value": "0.5",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.min.cleanable.ratio",
+            "value": "0.5",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/min.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=min.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.compaction.lag.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "min.compaction.lag.ms",
+            "value": "604800000",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          },
+          {
+            "name": "log.cleaner.min.compaction.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/min.insync.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=min.insync.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.insync.replicas",
+        "value": "2",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_DEFAULT_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "DYNAMIC_DEFAULT_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/preallocate",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=preallocate"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "preallocate",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.preallocate",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/remote.copy.lag.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=remote.copy.lag.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.bytes",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/remote.copy.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=remote.copy.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/remote.log.copy.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=remote.log.copy.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.copy.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/remote.log.delete.on.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=remote.log.delete.on.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.delete.on.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/remote.storage.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=remote.storage.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.storage.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.bytes",
+        "value": "-1",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.retention.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "retention.ms",
+            "value": "604800000",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/segment.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=segment.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.bytes",
+        "value": "104857600",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.bytes",
+            "value": "104857600",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.segment.bytes",
+            "value": "1073741824",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/segment.index.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=segment.index.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.index.bytes",
+        "value": "10485760",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.size.max.bytes",
+            "value": "10485760",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/segment.jitter.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=segment.jitter.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.jitter.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/segment.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=segment.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_processed_v2/configs/unclean.leader.election.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_processed_v2/config=unclean.leader.election.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "unclean.leader.election.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "unclean.leader.election.enable",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_processed_v2",
+        "is_default": true
+      }
+    ]
+  },
+  "bayno_file_results_v2": {
+    "kind": "KafkaTopicConfigList",
+    "metadata": {
+      "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs",
+      "next": null
+    },
+    "data": [
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/cleanup.policy",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=cleanup.policy"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "cleanup.policy",
+        "value": "compact",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "cleanup.policy",
+            "value": "compact",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          },
+          {
+            "name": "log.cleanup.policy",
+            "value": "delete",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/compression.gzip.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=compression.gzip.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.gzip.level",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.gzip.level",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/compression.lz4.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=compression.lz4.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.lz4.level",
+        "value": "9",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.lz4.level",
+            "value": "9",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/compression.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=compression.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.type",
+        "value": "producer",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.type",
+            "value": "producer",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/compression.zstd.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=compression.zstd.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.zstd.level",
+        "value": "3",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.zstd.level",
+            "value": "3",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/delete.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=delete.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "delete.retention.ms",
+        "value": "86400000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.delete.retention.ms",
+            "value": "86400000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/errors.deadletterqueue.group.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=errors.deadletterqueue.group.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "errors.deadletterqueue.group.enable",
+        "value": "false",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/file.delete.delay.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=file.delete.delay.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "file.delete.delay.ms",
+        "value": "60000",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.delete.delay.ms",
+            "value": "60000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/flush.messages",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=flush.messages"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.messages",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.flush.interval.messages",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/flush.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=flush.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.ms",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/follower.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=follower.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "follower.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/index.interval.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=index.interval.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "index.interval.bytes",
+        "value": "4096",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.interval.bytes",
+            "value": "4096",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/leader.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=leader.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "leader.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/local.retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=local.retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.bytes",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.bytes",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/local.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=local.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.ms",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.ms",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/max.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=max.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.compaction.lag.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.max.compaction.lag.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/max.message.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=max.message.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.message.bytes",
+        "value": "2097164",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "message.max.bytes",
+            "value": "2097164",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "message.max.bytes",
+            "value": "1048588",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/message.downconversion.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=message.downconversion.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.downconversion.enable",
+        "value": "true",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.downconversion.enable",
+            "value": "true",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/message.timestamp.after.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=message.timestamp.after.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.after.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "3600000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/message.timestamp.before.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=message.timestamp.before.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.before.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/message.timestamp.difference.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=message.timestamp.difference.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.difference.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.difference.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/message.timestamp.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=message.timestamp.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.type",
+        "value": "CreateTime",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.type",
+            "value": "CreateTime",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/min.cleanable.dirty.ratio",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=min.cleanable.dirty.ratio"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.cleanable.dirty.ratio",
+        "value": "0.5",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.min.cleanable.ratio",
+            "value": "0.5",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/min.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=min.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.compaction.lag.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "min.compaction.lag.ms",
+            "value": "604800000",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          },
+          {
+            "name": "log.cleaner.min.compaction.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/min.insync.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=min.insync.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.insync.replicas",
+        "value": "2",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_DEFAULT_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "DYNAMIC_DEFAULT_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/preallocate",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=preallocate"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "preallocate",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.preallocate",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/remote.copy.lag.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=remote.copy.lag.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.bytes",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/remote.copy.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=remote.copy.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/remote.log.copy.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=remote.log.copy.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.copy.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/remote.log.delete.on.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=remote.log.delete.on.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.delete.on.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/remote.storage.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=remote.storage.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.storage.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.bytes",
+        "value": "-1",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.retention.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "retention.ms",
+            "value": "604800000",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/segment.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=segment.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.bytes",
+        "value": "104857600",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.bytes",
+            "value": "104857600",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.segment.bytes",
+            "value": "1073741824",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/segment.index.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=segment.index.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.index.bytes",
+        "value": "10485760",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.size.max.bytes",
+            "value": "10485760",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/segment.jitter.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=segment.jitter.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.jitter.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/segment.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=segment.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_file_results_v2/configs/unclean.leader.election.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_file_results_v2/config=unclean.leader.election.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "unclean.leader.election.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "unclean.leader.election.enable",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_file_results_v2",
+        "is_default": true
+      }
+    ]
+  },
+  "bayno_exceptions_v2": {
+    "kind": "KafkaTopicConfigList",
+    "metadata": {
+      "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs",
+      "next": null
+    },
+    "data": [
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/cleanup.policy",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=cleanup.policy"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "cleanup.policy",
+        "value": "compact",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "cleanup.policy",
+            "value": "compact",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          },
+          {
+            "name": "log.cleanup.policy",
+            "value": "delete",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/compression.gzip.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=compression.gzip.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.gzip.level",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.gzip.level",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/compression.lz4.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=compression.lz4.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.lz4.level",
+        "value": "9",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.lz4.level",
+            "value": "9",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/compression.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=compression.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.type",
+        "value": "producer",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.type",
+            "value": "producer",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/compression.zstd.level",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=compression.zstd.level"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "compression.zstd.level",
+        "value": "3",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "compression.zstd.level",
+            "value": "3",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/delete.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=delete.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "delete.retention.ms",
+        "value": "86400000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.delete.retention.ms",
+            "value": "86400000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/errors.deadletterqueue.group.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=errors.deadletterqueue.group.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "errors.deadletterqueue.group.enable",
+        "value": "false",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/file.delete.delay.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=file.delete.delay.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "file.delete.delay.ms",
+        "value": "60000",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.delete.delay.ms",
+            "value": "60000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/flush.messages",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=flush.messages"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.messages",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.flush.interval.messages",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/flush.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=flush.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "flush.ms",
+        "value": "9223372036854775807",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/follower.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=follower.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "follower.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/index.interval.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=index.interval.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "index.interval.bytes",
+        "value": "4096",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.interval.bytes",
+            "value": "4096",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/leader.replication.throttled.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=leader.replication.throttled.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "leader.replication.throttled.replicas",
+        "value": "",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/local.retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=local.retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.bytes",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.bytes",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/local.retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=local.retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "local.retention.ms",
+        "value": "-2",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.local.retention.ms",
+            "value": "-2",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/max.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=max.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.compaction.lag.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.max.compaction.lag.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/max.message.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=max.message.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "max.message.bytes",
+        "value": "2097164",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "message.max.bytes",
+            "value": "2097164",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "message.max.bytes",
+            "value": "1048588",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/message.downconversion.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=message.downconversion.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.downconversion.enable",
+        "value": "true",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.downconversion.enable",
+            "value": "true",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/message.timestamp.after.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=message.timestamp.after.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.after.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.after.max.ms",
+            "value": "3600000",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/message.timestamp.before.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=message.timestamp.before.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.before.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.message.timestamp.before.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/message.timestamp.difference.max.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=message.timestamp.difference.max.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.difference.max.ms",
+        "value": "9223372036854775807",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.difference.max.ms",
+            "value": "9223372036854775807",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/message.timestamp.type",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=message.timestamp.type"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "message.timestamp.type",
+        "value": "CreateTime",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.message.timestamp.type",
+            "value": "CreateTime",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/min.cleanable.dirty.ratio",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=min.cleanable.dirty.ratio"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.cleanable.dirty.ratio",
+        "value": "0.5",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.cleaner.min.cleanable.ratio",
+            "value": "0.5",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/min.compaction.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=min.compaction.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.compaction.lag.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "min.compaction.lag.ms",
+            "value": "604800000",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          },
+          {
+            "name": "log.cleaner.min.compaction.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/min.insync.replicas",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=min.insync.replicas"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "min.insync.replicas",
+        "value": "2",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_DEFAULT_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "DYNAMIC_DEFAULT_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "2",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "min.insync.replicas",
+            "value": "1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/preallocate",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=preallocate"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "preallocate",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.preallocate",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/remote.copy.lag.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=remote.copy.lag.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.bytes",
+        "value": "-1",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/remote.copy.lag.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=remote.copy.lag.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.copy.lag.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.remote.copy.lag.ms",
+            "value": "0",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/remote.log.copy.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=remote.log.copy.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.copy.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/remote.log.delete.on.disable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=remote.log.delete.on.disable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.log.delete.on.disable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/remote.storage.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=remote.storage.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "remote.storage.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/retention.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=retention.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.bytes",
+        "value": "-1",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.retention.bytes",
+            "value": "-1",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/retention.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=retention.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "retention.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DYNAMIC_TOPIC_CONFIG",
+        "synonyms": [
+          {
+            "name": "retention.ms",
+            "value": "604800000",
+            "source": "DYNAMIC_TOPIC_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/segment.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=segment.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.bytes",
+        "value": "104857600",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "STATIC_BROKER_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.segment.bytes",
+            "value": "104857600",
+            "source": "STATIC_BROKER_CONFIG"
+          },
+          {
+            "name": "log.segment.bytes",
+            "value": "1073741824",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": false
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/segment.index.bytes",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=segment.index.bytes"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.index.bytes",
+        "value": "10485760",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "log.index.size.max.bytes",
+            "value": "10485760",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/segment.jitter.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=segment.jitter.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.jitter.ms",
+        "value": "0",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/segment.ms",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=segment.ms"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "segment.ms",
+        "value": "604800000",
+        "is_read_only": false,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      },
+      {
+        "kind": "KafkaTopicConfig",
+        "metadata": {
+          "self": "https://pkc-ldvr1.asia-southeast1.gcp.confluent.cloud/kafka/v3/clusters/lkc-pg690ym/topics/bayno_exceptions_v2/configs/unclean.leader.election.enable",
+          "resource_name": "crn:///kafka=lkc-pg690ym/topic=bayno_exceptions_v2/config=unclean.leader.election.enable"
+        },
+        "cluster_id": "lkc-pg690ym",
+        "name": "unclean.leader.election.enable",
+        "value": "false",
+        "is_read_only": true,
+        "is_sensitive": false,
+        "source": "DEFAULT_CONFIG",
+        "synonyms": [
+          {
+            "name": "unclean.leader.election.enable",
+            "value": "false",
+            "source": "DEFAULT_CONFIG"
+          }
+        ],
+        "topic_name": "bayno_exceptions_v2",
+        "is_default": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "checkedAt": "2026-11-01T04:41:46.840Z",
+  "runId": "61aa24a3-5705-4f8e-9874-933fe3c18a39",
+  "fileCount": 30,
+  "intervalSeconds": 10,
+  "detailsPerFile": 20,
+  "generationStatus": "COMPLETED",
+  "deliveryTotals": {
+    "RECONCILED": 30
+  },
+  "pgRows": 600,
+  "sftpRows": 600,
+  "cadence": {
+    "minSeconds": 9.217,
+    "maxSeconds": 10.756,
+    "meanSeconds": 9.992034482758623,
+    "firstToLastSeconds": 289.769,
+    "lastFileAfterRunCreatedSeconds": 290.277
+  },
+  "files": [
+    {
+      "ordinal": 1,
+      "fileId": "8953613a64081572e5c5476838cf946a69d85a1e05d989d75eabed5a4da15528",
+      "generatedAt": "2026-11-01T04:34:03.570Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 2,
+      "fileId": "43b6de9aaab75b6f4504cc543245d4a3d8f708b03f7f55077541449bb66d7da4",
+      "generatedAt": "2026-11-01T04:34:13.582Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 3,
+      "fileId": "1e5be2feb8c4384fa3b97c7658598406aacca1b6d44707b37052cfda99a02ccf",
+      "generatedAt": "2026-11-01T04:34:23.563Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 4,
+      "fileId": "65ecd43c942d7c267b74eb0b5facd27302e0e45c9d670d265178563ebec21caa",
+      "generatedAt": "2026-11-01T04:34:33.328Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 5,
+      "fileId": "345d64a6514747161c967333c06c8a3b405e95f96b7863f052b0944a35bcf718",
+      "generatedAt": "2026-11-01T04:34:43.562Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 6,
+      "fileId": "a9a7cb99452bad32b49b080639d85aa1dff994a6db22270bc0ed3b840d8adb1d",
+      "generatedAt": "2026-11-01T04:34:53.817Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 7,
+      "fileId": "37370e748f4f6fd34e4b7b774150be3294fe0debc899b7a6f7e2297ded2d9c4a",
+      "generatedAt": "2026-11-01T04:35:03.563Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 8,
+      "fileId": "3b1928665a06e9da7c23f5913842d82b3db279e327f464b462900d1b492f2862",
+      "generatedAt": "2026-11-01T04:35:13.088Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 9,
+      "fileId": "281e1972fc20f6e092e9b88c738d5a23f71a41f02f78377c9b0e5b167e1655c5",
+      "generatedAt": "2026-11-01T04:35:23.573Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 10,
+      "fileId": "163b97a3fecb9f5ad7c03c136e1dcf20490573d1c8743099e5698d4e3dcbb408",
+      "generatedAt": "2026-11-01T04:35:33.576Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 11,
+      "fileId": "e2f9bbcf1eb87dc45e47661d407306967f8c96cac57571037c07b60a293eb797",
+      "generatedAt": "2026-11-01T04:35:43.328Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 12,
+      "fileId": "dbc8475c1309207d3c2f72ca9a12d697f4690f94a80f5da5e46e91ac2c28edfe",
+      "generatedAt": "2026-11-01T04:35:53.570Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 13,
+      "fileId": "9c5009083e2745be51992530b9200fd4b94056f4a23570f3c5964e120bb6284d",
+      "generatedAt": "2026-11-01T04:36:03.579Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 14,
+      "fileId": "5656bde31a734661ffb75407be65d0db2e8f6af19d316f0ec05aeee65ca085b4",
+      "generatedAt": "2026-11-01T04:36:13.327Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 15,
+      "fileId": "bd63cff944bc0a2644c9733a174a996b33d4e565c692fa6c1004049393f15c87",
+      "generatedAt": "2026-11-01T04:36:23.583Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 16,
+      "fileId": "b2b8e43a238ba6c0711b5ffc46a57189c69629d683aa088c86cce56ef419c6cc",
+      "generatedAt": "2026-11-01T04:36:33.340Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 17,
+      "fileId": "11f075c3b68955c62d1245ad1b5f1ef65c5b11611f33c722108e68cafa00ab57",
+      "generatedAt": "2026-11-01T04:36:44.096Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 18,
+      "fileId": "88f348b1782ede543000f9ea2001ad2a23974841abd8bbee8ff417b8eb5c9d0b",
+      "generatedAt": "2026-11-01T04:36:53.313Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 19,
+      "fileId": "2cdcafea83749ad7486cc0f420738e9a5e89dc8486f4a696d65ac16fd06d6c80",
+      "generatedAt": "2026-11-01T04:37:03.342Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 20,
+      "fileId": "635091c61a7db8caebe560b84673c21ab937f700aa05fc48aa4dc20ceb662d47",
+      "generatedAt": "2026-11-01T04:37:13.315Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 21,
+      "fileId": "a280a8e86b6035b4185a7ed2b797de515cedb66ceebf655d5608088abfe73d11",
+      "generatedAt": "2026-11-01T04:37:23.562Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 22,
+      "fileId": "202898e942faa340ad8b4ba75f1839932d4fe029c7a97c72b27ec38facb4994f",
+      "generatedAt": "2026-11-01T04:37:33.091Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 23,
+      "fileId": "3b9bc6cb92d64a807ef7048c16b6d5795fc6f48171f4ca71a61c88fcd2c3cfd0",
+      "generatedAt": "2026-11-01T04:37:43.567Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 24,
+      "fileId": "4e3c4b6234402465f9ccccfeb92077cf96e480853fbcb5c2b5e48634433c6061",
+      "generatedAt": "2026-11-01T04:37:53.312Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 25,
+      "fileId": "ce1702f2f53e0b4efe8c1dbd52c908f639c0ce8e84466a0843da864fd6e6db73",
+      "generatedAt": "2026-11-01T04:38:03.566Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 26,
+      "fileId": "9f5e561f9b37ee19db5db82fcd98b1484de5cb675c8af88c2bda8faae881e9ab",
+      "generatedAt": "2026-11-01T04:38:13.331Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 27,
+      "fileId": "30cc123a7f269ad54b08fd9b6b9d862d868e0680e21aa19ad003d4b335cc04d3",
+      "generatedAt": "2026-11-01T04:38:23.813Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 28,
+      "fileId": "c2216a5248051d97d1fe0b62b85d523675942e43e5e6ac05321a4025a756eea5",
+      "generatedAt": "2026-11-01T04:38:33.325Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 29,
+      "fileId": "b5d12c546a7602db24782a5efb2654ceb20ac18a3a8b9299a4520c30398922f7",
+      "generatedAt": "2026-11-01T04:38:43.580Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    },
+    {
+      "ordinal": 30,
+      "fileId": "fc696fba540863770423f5e51d943712bff95b42c5cd43b47e55c9708a383f6b",
+      "generatedAt": "2026-11-01T04:38:53.339Z",
+      "deliveryStatus": "RECONCILED",
+      "pgMatch": true,
+      "sftpMatch": true,
+      "duplicates": 0
+    }
+  ]
+}

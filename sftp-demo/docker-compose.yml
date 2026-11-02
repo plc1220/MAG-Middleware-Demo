@@ -1,0 +1,14 @@
+services:
+  mag-sas-metadata-sftp:
+    build: .
+    image: mag-sas-metadata-sftp:local
+    container_name: mag-sas-metadata-sftp
+    ports:
+      - "127.0.0.1:2222:2222"
+    volumes:
+      - ./data:/sftp/data:ro
+      - ../bayno-demo/fixtures:/sftp/bayno:ro
+      - ./dropbox:/sftp/dropbox:rw
+      - ./secrets/authorized_keys:/run/secrets/authorized_key:ro
+      - ./secrets/server_host_ed25519:/run/secrets/server_host_ed25519:ro
+    restart: "no"

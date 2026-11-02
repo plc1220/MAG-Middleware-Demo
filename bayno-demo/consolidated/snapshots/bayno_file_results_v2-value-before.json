@@ -1,0 +1,6 @@
+{
+  "subject": "bayno_file_results_v2-value",
+  "version": 1,
+  "id": 100030,
+  "schema": "{\"type\":\"record\",\"name\":\"bayno_file_results_v2_value\",\"namespace\":\"org.apache.flink.avro.generated.record\",\"fields\":[{\"name\":\"run_id\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"file_id\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"source_file\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"status\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"reason\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"declared_count\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"actual_count\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"invalid_count\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"error_percent\",\"type\":[\"null\",\"string\"],\"default\":null}]}"
+}

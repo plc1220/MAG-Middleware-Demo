@@ -1,0 +1,15 @@
+{
+  "legacy_source": "PAUSE_REQUESTED",
+  "legacy_statements": [
+    "mag-bayno-file-checks",
+    "mag-bayno-history-live",
+    "mag-bayno-latest",
+    "mag-bayno-route-results",
+    "mag-bayno-stage-validated"
+  ],
+  "current_statements": [
+    "mag-bayno-demo-v2-10-stage",
+    "mag-bayno-demo-v2-14-file-state-complete",
+    "mag-bayno-demo-v2-34-route-final"
+  ]
+}

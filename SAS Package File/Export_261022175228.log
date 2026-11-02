@@ -1,0 +1,48 @@
+INFO  - Log file created: C:\Users\V110726\AppData\Roaming\SAS\Logs\Export_261022175228.log
+INFO  - Current Time: October 22, 2026 5:52:28 PM SGT
+INFO  - User Name: swsasetl
+INFO  - Source Metadata Server: 1swiftapp1.mas.net (Port: 8561)
+INFO  - ******** Analyzing Objects ********
+INFO  - ******** Starting Export Process ********
+INFO  - Exporting objects to package: C:\Users\V110726\Desktop\Bayno_jobs.spk
+INFO  - Exporting the following objects: 
+6 Job objects:
+   /EDW_SWIFT/SAS Data Integration Studio Custom Tree/1 Source Layer/1.7 Source Layer Jobs/File Validation/A_01_BAYNO
+   /EDW_SWIFT/SAS Data Integration Studio Custom Tree/1 Source Layer/1.7 Source Layer Jobs/BIZINFOR/BAYNO/A_02_BAYNO
+   /EDW_SWIFT/SAS Data Integration Studio Custom Tree/2 Staging Layer/2.6 Staging Layer Jobs/BIZINFOR/BAYNO/B_02_BAYNO
+   /EDW_SWIFT/SAS Data Integration Studio Custom Tree/3 Integration Layer/3.4 Integration Jobs/BIZINFOR/BAYNO/C_02_BAYNO
+   /EDW_SWIFT/SAS Data Integration Studio Custom Tree/3 Integration Layer/3.5 Loading Jobs/BIZINFOR/BAYNO/C_03_BAYNO
+   /EDW_SWIFT/SAS Data Integration Studio Custom Tree/3 Integration Layer/3.6 Post Processing Jobs/BIZINFOR/BAYNO/D_01_BAYNO
+
+INFO  - ******** Exporting Metadata ********
+INFO  - Metadata exported successfully.
+INFO  - ******** Exporting Content ********
+INFO  - Exporting content for Job objects.
+INFO  - ******** Analyzing Connections ********
+INFO  - Analyzing metadata for job "A_01_BAYNO"
+INFO  - Analyzing metadata for job "A_02_BAYNO"
+INFO  - Analyzing metadata for job "B_02_BAYNO"
+INFO  - Analyzing metadata for job "C_02_BAYNO"
+INFO  - Analyzing metadata for job "C_03_BAYNO"
+INFO  - Analyzing metadata for job "D_01_BAYNO"
+INFO  - The following connections will need to be mapped to target values when this package is imported:
+5 Table mappings:
+   - FCMS0000_BAYNO0000_DETAILS
+   - FMCS0000_BAYNO000_HEADER
+   - TREF01_BAYNO_HIST_STG
+   - TREF01_BAYNO_HIST_LD
+   - TREF01_BAYNO_HIST
+
+1 External file mapping:
+   - FMCS0000_BAYNO000_DETAILS
+
+INFO  - ******** Exporting Properties ********
+INFO  - ******** Creating Package ********
+INFO  - Generating substitution properties file.
+INFO  - You can submit the following command to the batch export tool if you want to export this package again.
+Note: This command does not take into account any changes that were made to the object selections in the Export Wizard.
+Also, the types supported by the application used to run the Export Wizard are not included in the "-types" option.
+
+ExportPackage -profile "1swiftapp1.mas.net pfsasetl" -package "C:\Users\V110726\Desktop\Bayno_jobs.spk" -objects "/EDW_SWIFT/SAS Data Integration Studio Custom Tree/1 Source Layer/1.7 Source Layer Jobs/File Validation/A_01_BAYNO(Job)" "/EDW_SWIFT/SAS Data Integration Studio Custom Tree/1 Source Layer/1.7 Source Layer Jobs/BIZINFOR/BAYNO/A_02_BAYNO(Job)" "/EDW_SWIFT/SAS Data Integration Studio Custom Tree/2 Staging Layer/2.6 Staging Layer Jobs/BIZINFOR/BAYNO/B_02_BAYNO(Job)" "/EDW_SWIFT/SAS Data Integration Studio Custom Tree/3 Integration Layer/3.4 Integration Jobs/BIZINFOR/BAYNO/C_02_BAYNO(Job)" "/EDW_SWIFT/SAS Data Integration Studio Custom Tree/3 Integration Layer/3.5 Loading Jobs/BIZINFOR/BAYNO/C_03_BAYNO(Job)" "/EDW_SWIFT/SAS Data Integration Studio Custom Tree/3 Integration Layer/3.6 Post Processing Jobs/BIZINFOR/BAYNO/D_01_BAYNO(Job)" -subprop -types "Condition,BusinessRuleFlow,ExternalFile,Cube,SearchFolder,Table,OLAPSchema,GeneratedTransform,Measure,InformationMap.OLAP,Column,Job.CubeBuild,Action,Library,MiningResults,InformationMap.Relational,Hierarchy,DeployedJob,CalculatedMeasure,RootFolder,Prompt,Document,ConditionActionSet,DecisionLogic,Note,Dimension,StoredProcess,PromptGroup,Job,OrchestrationJob,MessageQueue,Service.SoapGenerated,Level,SharedDimension,DeployedFlow" 
+
+INFO  - Total time to run the export process: 3.93 seconds.

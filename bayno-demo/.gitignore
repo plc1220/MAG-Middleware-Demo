@@ -1,0 +1,7 @@
+.env
+.feed-sequence
+incoming/*
+!incoming/.gitkeep
+generated/*
+!generated/.gitkeep
+target/

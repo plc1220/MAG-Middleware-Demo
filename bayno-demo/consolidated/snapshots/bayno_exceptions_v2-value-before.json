@@ -1,0 +1,6 @@
+{
+  "subject": "bayno_exceptions_v2-value",
+  "version": 1,
+  "id": 100033,
+  "schema": "{\"type\":\"record\",\"name\":\"bayno_exceptions_v2_value\",\"namespace\":\"org.apache.flink.avro.generated.record\",\"fields\":[{\"name\":\"run_id\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"file_id\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"source_file\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"line_number\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"error_code\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"explanation\",\"type\":[\"null\",\"string\"],\"default\":null}]}"
+}

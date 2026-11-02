@@ -1,0 +1,21 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import pg from 'pg';
+import {settings,transaction,startRun,stopRun,routeDemo} from '../demo-control.js';
+const pool=new pg.Pool({connectionString:process.env.TEST_DATABASE_URL||'postgres://postgres:test-only@127.0.0.1:15433/postgres'});
+test('run controls are durable, scoped and idempotent',async()=>{
+  await pool.query('TRUNCATE demo.runs CASCADE');
+  assert.throws(()=>settings({file_count:101}));assert.throws(()=>settings({interval_seconds:1}));assert.throws(()=>settings({scenario:'shell'}));
+  const attempts=await Promise.allSettled(['concurrent-a','concurrent-b'].map(k=>transaction(pool,c=>startRun(c,{},'test-session',k))));
+  assert.equal(attempts.filter(x=>x.status==='fulfilled').length,1);
+  assert.equal(attempts.find(x=>x.status==='rejected').reason.statusCode,409);
+  const run=attempts.find(x=>x.status==='fulfilled').value.run;
+  const replay=await transaction(pool,c=>startRun(c,{},'test-session',run.idempotency_key));assert.equal(replay.run.id,run.id);assert.equal(replay.replayed,true);
+  await assert.rejects(transaction(pool,c=>startRun(c,{file_count:2},'test-session',run.idempotency_key)),e=>e.statusCode===409);
+  await transaction(pool,c=>stopRun(c,run.id));
+  const persisted=await routeDemo(pool,{method:'GET'},new URL('http://local/api/demo/runs/'+run.id),null,{});
+  assert.equal(persisted.run.stop_requested,true);assert.equal(persisted.run.generation_status,'QUEUED');
+  await assert.rejects(routeDemo(pool,{method:'GET'},new URL('http://local/api/demo/runs/'+run.id+'/rows?limit=10000'),null,{}),e=>e.statusCode===400);
+  await assert.rejects(routeDemo(pool,{method:'GET'},new URL('http://local/api/demo/runs/bad-id'),null,{}),e=>e.statusCode===400);
+  await pool.end();
+});

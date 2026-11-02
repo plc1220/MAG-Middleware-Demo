@@ -1,0 +1,38 @@
+{
+  "name": "mag-bayno-file-checks",
+  "organization_id": "77c1b28e-7cc7-48b6-a48a-dad646769755",
+  "environment_id": "env-pozpjk",
+  "created_at": "2026-10-31T09:18:00Z",
+  "updated_at": "2026-10-31T10:24:26Z",
+  "spec": {
+    "statement": "CREATE TABLE bayno_file_state (\n PRIMARY KEY (source_file) NOT ENFORCED\n) DISTRIBUTED BY HASH(source_file) INTO 1 BUCKETS\nWITH ('changelog.mode'='upsert') AS\nWITH stats AS (\n SELECT source_file,COUNT(*) AS received_rows,\n   MIN(line_number) AS first_line,MAX(line_number) AS last_line,\n   MAX(file_length) AS expected_bytes,SUM(CAST(CHAR_LENGTH(HEX(raw_line))/2 AS BIGINT)+1) AS received_bytes,\n   SUM(CASE WHEN record_type='00' THEN 1 ELSE 0 END) AS header_count,\n   SUM(CASE WHEN record_type='99' THEN 1 ELSE 0 END) AS trailer_count,\n   MAX(CASE WHEN record_type='00' THEN line_number ELSE NULL END) AS header_line,\n   MAX(CASE WHEN record_type='99' THEN line_number ELSE NULL END) AS trailer_line,\n   MAX(CASE WHEN record_type='00' THEN c2 ELSE NULL END) AS source_system,\n   MAX(CASE WHEN record_type='00' THEN c3 ELSE NULL END) AS feed_type,\n   MAX(CASE WHEN record_type='00' THEN c6 ELSE NULL END) AS file_sequence,\n   MAX(CASE WHEN record_type='99' THEN c2 ELSE NULL END) AS trailer_source,\n   MAX(CASE WHEN record_type='99' THEN TRY_CAST(c3 AS BIGINT) ELSE NULL END) AS declared_count,\n   SUM(CASE WHEN record_type='01' THEN 1 ELSE 0 END) AS actual_count,\n   SUM(CASE WHEN record_type='01' AND row_error IS NOT NULL THEN 1 ELSE 0 END) AS invalid_count,\n   SUM(CASE WHEN parse_error IS NOT NULL THEN 1 ELSE 0 END) AS parse_errors,\n   SUM(CASE WHEN row_error IN ('INVALID_HEADER','INVALID_TRAILER','INVALID_RECORD_TYPE') THEN 1 ELSE 0 END) AS structural_errors,\n   SHA2(CONCAT(REGEXP_REPLACE(ARRAY_JOIN(ARRAY_SORT(ARRAY_AGG(CONCAT(LPAD(CAST(line_number AS STRING),12,'0'),':',raw_line))),CHR(10)),\n     '(?m)^[0-9]{12}:',''),CHR(10)),256) AS file_id\n FROM bayno_staging GROUP BY source_file\n), checked AS (\n SELECT s.*,\n   COALESCE(100.0 * invalid_count / NULLIF(actual_count,0),0.0) AS error_percent,\n   CASE WHEN first_line=1 AND received_rows=last_line AND received_bytes=expected_bytes THEN TRUE ELSE FALSE END AS complete,\n   CASE\n     WHEN parse_errors>0 THEN 'CSV_PARSE_ERROR'\n     WHEN header_count<>1 OR header_line<>1 THEN 'INVALID_HEADER'\n     WHEN trailer_count<>1 OR trailer_line<>last_line THEN 'INVALID_TRAILER'\n     WHEN structural_errors>0 THEN 'FILE_STRUCTURE_ERROR'\n     WHEN s.source_system<>trailer_source THEN 'SOURCE_MISMATCH'\n     WHEN declared_count<>actual_count THEN 'COUNT_MISMATCH'\n     WHEN c.source_system IS NULL OR NOT COALESCE(c.enabled,FALSE) THEN 'UNKNOWN_OR_DISABLED_FEED'\n     ELSE CAST(NULL AS STRING)\n   END AS file_error,\n   COALESCE(c.max_error_percent,CAST(20 AS DECIMAL(5,2))) AS max_error_percent\n FROM stats s LEFT JOIN bayno_feed_control c\n   ON s.source_system=c.source_system AND s.feed_type=c.feed_type\n)\nSELECT source_file,file_id,source_system,feed_type,file_sequence,\n declared_count,actual_count,invalid_count,error_percent,complete,file_error,\n expected_bytes,received_bytes,trailer_line,\n CASE WHEN NOT complete THEN 'PENDING'\n      WHEN file_error IS NOT NULL OR error_percent>max_error_percent THEN 'REJECTED'\n      ELSE 'ACCEPTED' END AS status,\n CASE WHEN NOT complete THEN 'INGEST_INCOMPLETE'\n      WHEN file_error IS NOT NULL THEN 'FILE_VALIDATION_FAILED'\n      WHEN error_percent>max_error_percent THEN 'DETAIL_ERROR_THRESHOLD_EXCEEDED'\n      WHEN invalid_count>0 THEN 'ACCEPTED_WITH_DETAIL_ERRORS'\n      ELSE 'OK' END AS reason\nFROM checked;\n",
+    "compute_pool_id": "lfcp-rr606r7",
+    "principal": "u-v68v25",
+    "stopped": false,
+    "execution_mode": "STREAMING",
+    "properties": {
+      "sql.current-catalog": "lumo-demo",
+      "sql.current-database": "lumo-demo"
+    }
+  },
+  "status": {
+    "phase": "RUNNING",
+    "detail": "",
+    "scaling_status": {
+      "scaling_state": "OK",
+      "last_updated": "2026-10-31T09:23:36Z"
+    },
+    "state_limit_status": {
+      "state_limit_state": "OK",
+      "detail": "State size is within the allowed limits.",
+      "last_updated": "2026-10-31T10:24:26Z"
+    },
+    "traits": {
+      "sql_kind": "CREATE_TABLE_AS",
+      "is_bounded": true,
+      "is_append_only": true
+    },
+    "network_kind": "PUBLIC",
+    "latest_offsets_timestamp": "2026-10-31T09:21:07Z"
+  }
+}

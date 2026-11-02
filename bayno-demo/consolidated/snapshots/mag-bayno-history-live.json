@@ -1,0 +1,37 @@
+{
+  "name": "mag-bayno-history-live",
+  "organization_id": "77c1b28e-7cc7-48b6-a48a-dad646769755",
+  "environment_id": "env-pozpjk",
+  "created_at": "2026-10-30T01:15:17Z",
+  "updated_at": "2026-10-30T02:16:50Z",
+  "spec": {
+    "statement": "INSERT INTO bayno_assignment_history\nSELECT COALESCE(file_id, '') AS file_id,\n          COALESCE(line_number, '') AS line_number, source_file, source_system, feed_type,\n          file_sequence, record_type, carrier, flight_number, first_leg_dep_date,\n          scheduled_dep_time, departure_airport, bay_number\nFROM (\n    SELECT *, ROW_NUMBER() OVER (\n        PARTITION BY file_id, line_number ORDER BY source_file ASC\n    ) AS rn\n    FROM bayno_details\n    WHERE file_id IS NOT NULL AND line_number IS NOT NULL\n)\nWHERE rn = 1;\n",
+    "compute_pool_id": "lfcp-rr606r7",
+    "principal": "u-v68v25",
+    "stopped": false,
+    "execution_mode": "STREAMING",
+    "properties": {
+      "sql.current-catalog": "lumo-demo",
+      "sql.current-database": "lumo-demo"
+    }
+  },
+  "status": {
+    "phase": "RUNNING",
+    "detail": "",
+    "scaling_status": {
+      "scaling_state": "OK",
+      "last_updated": "2026-10-30T01:15:30Z"
+    },
+    "state_limit_status": {
+      "state_limit_state": "OK",
+      "detail": "State size is within the allowed limits.",
+      "last_updated": "2026-10-30T02:16:50Z"
+    },
+    "traits": {
+      "sql_kind": "INSERT_INTO",
+      "is_bounded": false,
+      "is_append_only": true
+    },
+    "network_kind": "PUBLIC"
+  }
+}

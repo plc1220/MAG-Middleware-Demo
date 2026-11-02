@@ -1,0 +1,6 @@
+{
+  "subject": "bayno_processed_v2-value",
+  "version": 1,
+  "id": 100028,
+  "schema": "{\"type\":\"record\",\"name\":\"bayno_processed_v2_value\",\"namespace\":\"org.apache.flink.avro.generated.record\",\"fields\":[{\"name\":\"run_id\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"file_id\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"source_file\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"line_number\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"carr\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"flt_nbr\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"first_leg_flt_dt\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"sched_dep_tm\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"dep_airpt\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"bay_no\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"rec_src_sys\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"file_sequence\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"rec_ld_ts\",\"type\":[\"null\",\"string\"],\"default\":null}]}"
+}

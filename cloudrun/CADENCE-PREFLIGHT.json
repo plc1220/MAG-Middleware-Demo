@@ -1,0 +1,14 @@
+{
+  "runId": "65ffc9ba-5e49-4047-9dda-088b82220763",
+  "generationStatus": "COMPLETED",
+  "deliveryTotals": {"RECONCILED": 30},
+  "cadencePassed": false,
+  "cadence": {
+    "minSeconds": 9.273,
+    "maxSeconds": 39.761,
+    "meanSeconds": 11.92248275862069,
+    "firstToLastSeconds": 345.752,
+    "lastFileAfterRunCreatedSeconds": 346.02
+  },
+  "finding": "Initial independent loops still contended on the run row: verifier audit-event foreign keys held a key-share lock while the generator requested FOR UPDATE. PostgreSQL activity identified the blocking verifier connection. The generator now uses FOR NO KEY UPDATE for immutable run IDs; a real PostgreSQL regression verified compatibility. This trial is retained and does not count as timing acceptance."
+}

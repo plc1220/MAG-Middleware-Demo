@@ -1,0 +1,45 @@
+{
+  "name": "mag-bayno-route-results",
+  "organization_id": "77c1b28e-7cc7-48b6-a48a-dad646769755",
+  "environment_id": "env-pozpjk",
+  "created_at": "2026-10-31T09:37:00Z",
+  "updated_at": "2026-10-31T10:38:07Z",
+  "spec": {
+    "statement": "EXECUTE STATEMENT SET\nBEGIN\n INSERT INTO bayno_file_results\n SELECT file_id,source_file,status,reason,CAST(declared_count AS STRING),CAST(actual_count AS STRING),\n   CAST(invalid_count AS STRING),CAST(error_percent AS STRING),source_system,feed_type,file_sequence\n FROM bayno_final_files;\n\n INSERT INTO bayno_details\n SELECT f.file_id,s.source_file,CAST(s.line_number AS STRING),f.source_system,f.feed_type,f.file_sequence,\n   s.record_type,s.c2,s.c3,s.c4,s.c5,s.c6,s.c7\n FROM bayno_stage_events s JOIN bayno_final_files f ON s.source_file=f.source_file\n WHERE f.status='ACCEPTED' AND s.record_type='01' AND s.row_error IS NULL;\n\n INSERT INTO bayno_exceptions\n SELECT f.file_id,s.source_file,CAST(s.line_number AS STRING),s.row_error,\n   CASE WHEN s.parse_error IS NOT NULL THEN s.parse_error\n     ELSE 'Invalid detail: check required fields, ISO date, HHMM time and field count' END\n FROM bayno_stage_events s JOIN bayno_final_files f ON s.source_file=f.source_file\n WHERE s.record_type='01' AND s.row_error IS NOT NULL\n UNION ALL\n SELECT file_id,source_file,CAST(COALESCE(trailer_line,0) AS STRING),file_error,\n   CASE WHEN file_error='COUNT_MISMATCH' THEN CONCAT('Declared ',CAST(declared_count AS STRING),', found ',CAST(actual_count AS STRING))\n     ELSE CONCAT('File check failed: ',file_error) END\n FROM bayno_final_files WHERE file_error IS NOT NULL;\nEND;\n",
+    "compute_pool_id": "lfcp-xqky88x",
+    "principal": "u-v68v25",
+    "stopped": false,
+    "execution_mode": "STREAMING",
+    "properties": {
+      "sql.current-catalog": "lumo-demo",
+      "sql.current-database": "lumo-demo"
+    }
+  },
+  "status": {
+    "phase": "RUNNING",
+    "detail": "",
+    "scaling_status": {
+      "scaling_state": "OK",
+      "last_updated": "2026-10-31T09:37:17Z"
+    },
+    "state_limit_status": {
+      "state_limit_state": "OK",
+      "detail": "State size is within the allowed limits.",
+      "last_updated": "2026-10-31T10:38:06Z"
+    },
+    "warnings": [
+      {
+        "severity": "CRITICAL",
+        "reason": "HIGH_STATE_OPERATOR_WITHOUT_TTL",
+        "message": "Your query includes one or more highly state-intensive operators but does not set a time-to-live (TTL) value, which means that the system potentially needs to store an infinite amount of state. This can result in a DEGRADED statement and higher CFU consumption. If possible, change your query to use a different operator, or set a time-to-live (TTL) value. For more information, see https://cnfl.io/high_state_intensive_operators.",
+        "created_at": "2026-10-31T09:37:03Z"
+      }
+    ],
+    "traits": {
+      "sql_kind": "EXECUTE_STATEMENT_SET",
+      "is_bounded": false,
+      "is_append_only": true
+    },
+    "network_kind": "PUBLIC"
+  }
+}

@@ -1,0 +1,8 @@
+.gcloudignore
+.git
+node_modules
+.site-password
+.env
+.env.*
+!.env.example
+*.log

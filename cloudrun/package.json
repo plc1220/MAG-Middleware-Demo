@@ -1,0 +1,19 @@
+{
+  "name": "mag-bayno-chat-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "@google/genai": "2.32.0",
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "google-auth-library": "^10.9.1",
+    "pg": "^8.23.1"
+  }
+}

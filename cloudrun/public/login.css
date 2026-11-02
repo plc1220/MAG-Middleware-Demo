@@ -1,0 +1,19 @@
+:root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #17221f; background: #f2f3ef; }
+* { box-sizing: border-box; }
+body { min-height: 100vh; margin: 0; }
+.login-shell { display: grid; min-height: 100vh; padding: 24px; place-items: center; }
+.login-card { width: min(100%, 430px); padding: 34px; border: 1px solid #dfe5df; border-radius: 19px; background: #fff; box-shadow: 0 18px 55px #253a300d; }
+.brand-mark { display: grid; width: 42px; height: 42px; margin-bottom: 29px; border-radius: 12px; background: #a7e2be; color: #15231d; font-size: 20px; font-weight: 800; place-items: center; }
+.eyebrow { color: #176b50; font: 10px ui-monospace, monospace; letter-spacing: .13em; }
+h1 { margin: 9px 0 10px; font-size: 29px; letter-spacing: -.05em; }
+.intro { margin: 0 0 28px; color: #687570; font-size: 13px; line-height: 1.65; }
+label { display: block; margin-bottom: 7px; font-size: 11px; font-weight: 700; }
+input { width: 100%; min-height: 44px; padding: 0 12px; border: 1px solid #d1dbd3; border-radius: 8px; outline: none; font: 14px ui-monospace, monospace; }
+input:focus { border-color: #53906c; box-shadow: 0 0 0 3px #176b5017; }
+button { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 45px; margin-top: 11px; padding: 0 14px; border: 0; border-radius: 8px; background: #1e5943; color: white; font-size: 12px; font-weight: 700; cursor: pointer; }
+button:disabled { opacity: .55; cursor: default; }
+#login-error { min-height: 18px; margin: 9px 0 0; color: #a24733; font-size: 10px; }
+.privacy { margin: 18px 0 0; padding-top: 14px; border-top: 1px solid #edf0ed; color: #78847c; font: 9px/1.6 ui-monospace, monospace; }
+@media (max-width: 500px) { .login-card { padding: 27px 22px; } }
+
+.google-signin{display:flex;align-items:center;justify-content:space-between;min-height:48px;padding:0 16px;border:1px solid #bec9c0;border-radius:9px;color:#17221f;background:white;font-size:14px;font-weight:600;text-decoration:none}.google-signin:hover{background:#f3f6f2}.google-signin:focus-visible{outline:3px solid #538cc8;outline-offset:3px}.account-note{font-size:12px;color:#687570;margin:12px 0 0}

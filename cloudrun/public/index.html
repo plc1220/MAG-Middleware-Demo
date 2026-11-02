@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f2f3ef">
+    <meta name="description" content="A source-grounded walkthrough of the MAG BAYNO SAS package and Confluent Flink demo.">
+    <title>MAG BAYNO · SAS to Flink</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./chat.css">
+    <link rel="stylesheet" href="./sas-flow.css">
+    <script src="./app.js" type="module"></script>
+    <script src="./demo.js" defer></script>
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <a class="brand" href="#top" aria-label="MAG BAYNO walkthrough home">
+          <span class="brand-mark">M</span>
+          <span><strong>MAG</strong><small>DATA LINEAGE</small></span>
+        </a>
+        <div class="sidebar-intro">
+          <p class="eyebrow">BAYNO FEED · WALKTHROUGH</p>
+          <h1>From file<br>to table.</h1>
+          <p>Seven steps through the SAS export and the Cloud demo pipeline.</p>
+        </div>
+        <nav id="chapter-nav" class="chapter-nav" aria-label="Walkthrough chapters"></nav>
+        <div class="sidebar-foot">
+          <span class="live-dot"></span>
+          <span>Source checked<br><strong>30 Oct 2026</strong></span>
+        </div>
+      </aside>
+
+      <main id="top" class="main-panel">
+        <header class="topbar">
+          <div class="crumb"><span>MAG MIDDLEWARE</span><i>/</i><strong>BAYNO</strong></div>
+          <div class="top-status"><span class="status-dot"></span> CLOUD RUN · LIVE MCP <span class="status-sep">·</span><button id="logout-button" class="logout-button" type="button">Sign out</button></div>
+        </header>
+
+        <div class="demo-view-switch"><button id="show-demo" type="button">Live demo</button><button id="show-walkthrough" type="button">SAS walkthrough</button></div>
+        <section id="demo-dashboard" class="demo-dashboard" aria-label="BAYNO demo control room"></section>
+        <div id="walkthrough" hidden>
+        <div class="progress-track" aria-hidden="true"><div id="progress-bar"></div></div>
+        <section id="chapter-content" class="chapter-content" aria-live="polite" tabindex="-1"></section>
+
+        <footer class="chapter-footer">
+          <button id="previous-button" class="previous-button" type="button">← <span>Previous</span></button>
+          <span id="chapter-count" class="chapter-count"></span>
+          <button id="next-button" class="next-button" type="button"><span>Next step</span> <b>→</b></button>
+        </footer>
+        </div>
+      </main>
+    </div>
+    <noscript><p class="noscript">This walkthrough needs JavaScript enabled to switch between chapters.</p></noscript>
+  </body>
+</html>
